@@ -6,6 +6,7 @@ def key_for_min_value(hash)
     return nil
   else
     smallest = 1000
+    printme = ""
     hash.each do |thing, number|
       if number < smallest
           smallest = number && printme = thing
