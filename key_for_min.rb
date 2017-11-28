@@ -3,9 +3,9 @@
 
 def key_for_min_value(name_hash)
   smallest = 1000
-  name_hash.each do |key, number|
+  name_hash.each do |thing, number|
     if number < smallest
-        smallest = number && printme = key
+        smallest = number && printme = thing
     end
   end
   printme
